@@ -1,0 +1,21 @@
+{
+  "name" : "lrs-query-service",
+  "description": "The microservice queries the LRS and returns the result",
+  "version": "0.1.0",
+  "licenses": [
+    {
+      "type": "UC Berkeley",
+      "url": "http://ipira.berkeley.edu/software-copyright-notice-and-disclaimer"
+    }
+  ],
+  "dependencies": {
+    "basic-auth": "latest",
+    "config" : "latest",
+    "joi": "latest",
+    "pg": "latest",
+    "pg-promise": "latest"
+  },
+  "engines" : {
+    "node"  : "4.3.2"
+  }
+}
