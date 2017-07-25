@@ -1,0 +1,35 @@
+{
+  "canvas": {
+    "apiKey": "canvas developer key"
+  },
+  "redshift": {
+    "apiKey": "dummy",
+    "apiSecret": "dummy",
+    "host": "api.inshosteddata.com",
+    "https": true
+  },
+  "statements": {
+    "type": "caliper",
+    "platform": {
+      "name": "bCourses",
+      "url": "https://bcourses.berkeley.edu"
+    },
+    "lrs": {
+      "endpoint": "https://localhost/api/statements",
+      "username": "xyz",
+      "password": "abc"
+    }
+  },
+  "aws": {
+    "credentials": {
+      "accessKeyId": "key",
+      "secretAccessKey": "secret",
+      "region": "us-west-2"
+    },
+    "s3": {
+      "bucket": "canvas-data",
+      "region": "us-west-2",
+      "directory": "extracts"
+    }
+  }
+}

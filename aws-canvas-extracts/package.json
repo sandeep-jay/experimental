@@ -1,0 +1,27 @@
+{
+  "name": "redshift",
+  "description": "Instructure Canvas Redshift Processor",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ets-berkeley-edu/redshift.git"
+  },
+  "dependencies": {
+    "async": "latest",
+    "aws-sdk": "latest",
+    "bunyan": "latest",
+    "config": "latest",
+    "content-disposition": "latest",
+    "fast-csv": "latest",
+    "glob": "latest",
+    "lodash": "latest",
+    "mmmagic": "latest",
+    "moment": "latest",
+    "request": "latest",
+    "shortid": "latest",
+    "yargs": "latest"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
